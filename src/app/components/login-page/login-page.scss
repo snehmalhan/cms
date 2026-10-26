@@ -148,6 +148,10 @@ label {
   outline: none;
   flex: 1;
   font-size: 14px;
+  
+  &::placeholder {
+      color: #999999;
+  }
 }
 
 .input-icon {
